@@ -37,16 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts',
-    'attendance',
-    'courses',
-    'finance',
-    'groups',
-    'homeworks',
-    'lessons',
-    'students',
-    'submissions',
-    'teachers',
+    'apps.accounts',
+    'apps.attendance',
+    'apps.courses',
+    'apps.finance',
+    'apps.groups',
+    'apps.homeworks',
+    'apps.lessons',
+    'apps.students',
+    'apps.submissions',
+    'apps.teachers',
 
 ]
 
@@ -65,7 +65,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATES_DIR := BASE_DIR / 'templates'    ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
