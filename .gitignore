@@ -1,0 +1,62 @@
+# Python
+# Byte-code files
+*.pyc
+__pycache__/
+
+
+# Distributions and packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+
+# Interpreter-specific files
+# Windows
+python*.exe
+python*.exp
+python*.lib
+python*.dll
+
+# OS-specific files
+.DS_Store # macOS
+.project # Eclipse
+.idea/ # PyCharm
+.vscode/ # VS Code
+
+
+# Testing and coverage
+.coverage
+.tox/
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite
+/db.sqlite3
+
+# Pipenv
+# Pipfile.lock is generally recommended to be included in version control.
+# Uncomment the following to ignore the virtual environment folder itself if located elsewhere
+# .venv/
+
+# Poetry
+# poetry.lock is generally recommended to be included in version control.
+
+# IDE-specific caches
+# If you use a specific IDE, add its cache folder here (e.g., .idea/, .vscode/)
+
